@@ -33,5 +33,5 @@ refs.btnCreat.addEventListener("click", () => {
 });
 
 refs.btnDestroy.addEventListener("click", () => {
-  window.location.reload();
+ refs.boxes.innerHTML =''
 });

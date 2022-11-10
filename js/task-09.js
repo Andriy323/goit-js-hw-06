@@ -10,6 +10,6 @@ const refs = {
 refs.changeColor.addEventListener("click", changeBgColor);
 
 function changeBgColor() {
-  refs.body.style.backgroundColor = `${getRandomHexColor()}`;
+  refs.body.style.backgroundColor = getRandomHexColor();
   refs.color.textContent = getRandomHexColor();
 }
